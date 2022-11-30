@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import articles from "./Article-Content";
+import articles from "./ArticleContent";
 const ArticlePage = () => {
   const { articleid } = useParams();
   const article = articles.find((article) => article.name === articleid);
