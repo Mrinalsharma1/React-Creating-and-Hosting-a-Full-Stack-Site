@@ -6,7 +6,7 @@ function Article() {
   useEffect(() => {
     setTimeout(() => {
       mydata();
-    }, 5000);
+    }, 10000);
   }, []);
   const mydata = async () => {
     const options = {
@@ -44,6 +44,7 @@ function Article() {
               <h2>{e.name}</h2>
               <div className="justify-content-center d-flex">
                 <img
+                  alt="temp"
                   className="rounded shadow"
                   style={{ height: "150px", width: "150px" }}
                   src={`${e.image.thumbnail.contentUrl}`}

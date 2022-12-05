@@ -12,6 +12,9 @@ const NavBar = () => {
         <li>
           <Link to="/article">Article</Link>
         </li>
+        <li>
+          <Link to="/articleobj">Articleobj</Link>
+        </li>
       </ul>
     </nav>
   );
