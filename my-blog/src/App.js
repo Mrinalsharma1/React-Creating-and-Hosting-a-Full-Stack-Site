@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import NavBar from "./NavBar";
 import Articleobj from "./pages/Articleobj";
 import NotFound from "./pages/NotFound";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/about" element={<About />}></Route>
             <Route path="/article" element={<Article />}></Route>
             <Route path="/articleobj" element={<Articleobj />}></Route>
+            <Route path="/login" element={<Login />}></Route>
+            <Route path="/signup" element={<Signup />}></Route>
             <Route
               path="/articleobj/:articleid"
               element={<ArticlePage />}
