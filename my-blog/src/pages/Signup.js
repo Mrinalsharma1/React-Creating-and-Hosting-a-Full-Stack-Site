@@ -49,7 +49,7 @@ function Signup() {
                     <div className='col-md-3'></div>
                     <div className='col-md-6 bg-light shadow-lg p-4'>
                         <h2 className='text-success text-center'>Create Account</h2>
-                        {error && <p className='error text-danger'>{error}</p>}
+                        {error && <p className='error text-danger bg-dark p-1 rounded'>{error}</p>}
                         <div className="mb-3">
                             <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                             <input type="email" className="form-control" name="email" onChange={eventhandler} placeholder='Enter Your Email' />
