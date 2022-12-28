@@ -10,6 +10,7 @@ import Articleobj from "./pages/Articleobj";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Test from "./component/Test";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
               element={<ArticlePage />}
             ></Route>
             <Route path="*" element={<NotFound />}></Route>
+            <Route path="/test" element={<Test />}></Route>
           </Routes>
         </div>
       </div>
